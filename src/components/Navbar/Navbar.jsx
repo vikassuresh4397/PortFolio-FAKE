@@ -63,11 +63,11 @@ const Navbar = () => {
                 Project
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="contact" spy={true} smooth={true}>
                 Contact
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
         <Link to="contact" spy={true} smooth={true}>
