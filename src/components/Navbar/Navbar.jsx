@@ -64,13 +64,13 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="services" spy={true} smooth={true}>
+              <Link to="contact" spy={true} smooth={true}>
                 Contact
               </Link>
             </li>
           </ul>
         </div>
-        <Link to="services" spy={true} smooth={true}>
+        <Link to="contact" spy={true} smooth={true}>
           <button className="button n-button">Contact</button>
         </Link>
         <button style={{ border: "1px solid white", backgroundColor: "transparent" }}>
